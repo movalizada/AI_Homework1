@@ -32,3 +32,44 @@ Notes
 Input format: first lines define S,<start> and D,<goal>, followed by id,cell for nodes, and u,v,w for edges.
 
 Supports reproducible runs for comparison.
+
+###
+=========== A* SMALL TEST ===========
+
+UCS (h=0)
+Path: 1 -> 2 -> 4 -> 6 -> 8
+Total cost: 10
+Expanded: 8
+Runtime: 0.00000s
+
+A* Euclidean
+Path: 1 -> 2 -> 4 -> 6 -> 8
+Total cost: 10
+Expanded: 8
+Runtime: 0.00000s
+
+A* Manhattan
+Path: 1 -> 2 -> 4 -> 6 -> 8
+Total cost: 10
+Expanded: 8
+Runtime: 0.00000s
+
+=========== A* MEDIUM TEST ===========
+
+UCS (h=0)
+Path: 1 -> 2 -> 6 -> 10
+Total cost: 9
+Expanded: 9
+Runtime: 0.00000s
+
+A* Euclidean
+Path: 1 -> 2 -> 6 -> 10
+Total cost: 9
+Expanded: 7
+Runtime: 0.00000s
+
+A* Manhattan
+Path: 1 -> 2 -> 6 -> 10
+Total cost: 9
+Expanded: 7
+Runtime: 0.00000s
